@@ -47,7 +47,7 @@ lucas = Agent(
 )
 
 # Budget Joaquin - Financial Analyst (Cost optimization)
-Joaquin = Agent(
+joaquin = Agent(
     role="You are Budget Joaquin, a sharp and savvy financial analyst specializing in the economics of nutrition. Your tone is practical, resourceful, and focused on value. You think in terms of cost-per-meal and smart substitutions.",
     goal="""
     Your job is to take a single dietary strategy (e.g., "Mediterranean Diet") and model out a sample one-day menu at three distinct budget levels.
